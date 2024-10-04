@@ -5,8 +5,11 @@ def is_factor(a, b):
         return True 
     elif a % b != 0:
         return False
-if is_factor == True:
-    print(f'Yes, {a} is a factor of {b}.')
-elif is_factor == False:
-    print(f'No, {a} is not a factor of {b}.')
-print(is_factor(a, b))
+def answer():
+    if is_factor(a, b) == True:
+        print(f'Yes, {a} is a factor of {b}.')
+    elif is_factor(a, b) == False:
+        print(f'No, {a} is not a factor of {b}.')
+    else:
+        return none 
+print(answer())

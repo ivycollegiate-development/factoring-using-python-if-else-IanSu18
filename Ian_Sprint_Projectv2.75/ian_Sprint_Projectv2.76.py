@@ -9,7 +9,7 @@ try:
     if number <= 0:
         print('please enter a positive number.')
     else:
-        factors = list_factors(number)
+        factors = list_factor(number)
         print(f'The factor of {number} are {factors}')
 except ValueError:
     print('THat is an invalid number, Please input a positive interger')
